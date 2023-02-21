@@ -5,11 +5,11 @@
     <TargetFramework>net5.0</TargetFramework>
 
     <PackageId>ModelStateExtensions</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <License>MIT</License>
     <Authors>Albert Souza</Authors>
     <Company>Albert Souza</Company>
-    <PackageDescription>Extension to get the error list from an ASP.NET Core API model state.</PackageDescription>
+    <PackageDescription>Extension to get the error list from an ASP.NET Core API ModelStateDictionary.</PackageDescription>
     <Description>Notifications made easy</Description>
     <RepositoryUrl>https://github.com/AlbertSouza1/model-state-extension</RepositoryUrl>
     <PackageProjectUrl>https://github.com/AlbertSouza1/model-state-extension</PackageProjectUrl>
@@ -17,7 +17,7 @@
     <PackageIcon>icon.png</PackageIcon>
     <PackageTags>error;model;modelstate</PackageTags>
     <Title>ModelStateExtension</Title>
-    <Summary>Extension to get the error list from an ASP.NET Core API model state.</Summary>
+    <Summary>Extension to get the error list from an ASP.NET Core API ModelStateDictionary.</Summary>
   </PropertyGroup>
 
   <ItemGroup>
