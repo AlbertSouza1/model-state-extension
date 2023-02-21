@@ -8,12 +8,12 @@ namespace ModelStateExtension.Extensions
     {
         public static List<string> GetErrors(this ModelStateDictionary modelState)
         {
-            var result = new List<string>();
+            var errors = new List<string>();
 
             foreach (var item in modelState.Values)
-                result.AddRange(item.Errors.Select(x => x.ErrorMessage));
+                errors.AddRange(item.Errors.Select(x => x.ErrorMessage));
 
-            return result;
+            return errors;
         }
     }
 }
