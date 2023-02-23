@@ -5,7 +5,7 @@
     <TargetFramework>net5.0</TargetFramework>
 
     <PackageId>ModelStateExtensions</PackageId>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <License>MIT</License>
     <Authors>Albert Souza</Authors>
     <Company>Albert Souza</Company>
@@ -16,8 +16,8 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>icon.png</PackageIcon>
     <PackageTags>error;model;modelstate</PackageTags>
-    <Title>ModelStateExtension</Title>
-    <Summary>Extension to get the error list from an ASP.NET Core API ModelStateDictionary.</Summary>
+    <Title>ModelStateExtension</Title>    
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -26,6 +26,7 @@
 
   <ItemGroup>
     <None Include="..\Media\icon.png" Pack="true" PackagePath="\" />
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
   
 </Project>
