@@ -15,7 +15,7 @@
     <PackageProjectUrl>https://github.com/AlbertSouza1/model-state-extension</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>icon.png</PackageIcon>
-    <PackageTags>error;model;modelstate</PackageTags>
+    <PackageTags>ASP.NET;Errors;Models;ModelState</PackageTags>
     <Title>ModelStateExtension</Title>    
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
